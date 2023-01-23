@@ -24,7 +24,7 @@ const Weather = ({ data }) => {
                     <p className='text-2xl md:text-5xl'>Feels Like</p>
                 </div>
                 <div>
-                    <p className='font-bold text-2xl'>{data.main.humidity}%;</p>
+                    <p className='font-bold text-2xl'>{data.main.humidity}%</p>
                     <p className='text-2xl md:text-5xl'>Humidity</p>
                 </div>
                 <div>
